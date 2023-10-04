@@ -1,0 +1,12 @@
+@import 'variables.module.scss';
+
+body {
+  background: $firstColor;
+  height: 100svh;
+  width: 100svw;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

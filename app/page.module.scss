@@ -1,0 +1,36 @@
+@import 'variables.module.scss';
+
+.personalCard {
+    background: $secondColor;
+    height: 85svh;
+    width: 85svw;
+    border-radius: 40px;
+    box-shadow: -1px 1px 6px 1px gray;
+
+    display: flex;
+    justify-content: left;
+
+    color: $textColor;
+}
+
+.personalInfo {
+    height: 85svh;
+    width: 25svw;
+    box-sizing: border-box;
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.showingCard {
+    background: $firstColor;
+    height: 85svh;
+    width: 60svw;
+    border-radius: 40px;    
+    
+    position: absolute;
+    right: 7.5svw;
+}
