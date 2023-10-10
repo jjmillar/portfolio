@@ -1,6 +1,8 @@
+import Image from 'next/image'
+import Navbar from '@/components/Navbar'
+
 import './globals.scss'
 import styles from './page.module.scss'
-import Image from 'next/image'
 
 export const metadata = {
   title: 'JJ Portfolio',
@@ -14,10 +16,11 @@ export default function RootLayout ({ children }) {
         <div className={styles.personalCard}>
           <div className={styles.personalInfo}>
             <Image
-              src='/heffer.jpeg'
+              src='/seiya.jpg'
               height={100}
               width={100}
               alt='personal photo'
+              className={styles.profilePic}
             />
             <div className={styles.iconsWrapper}>
               <a href='https://github.com/jjmillar' target='blank'>
@@ -34,6 +37,7 @@ export default function RootLayout ({ children }) {
           </div>
         </div>
         {children}
+        <Navbar />
       </body>
       <script
         type='module'
@@ -41,7 +45,7 @@ export default function RootLayout ({ children }) {
         async
       />
       <script
-        nomodule
+        noModule
         src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'
         async
       />
