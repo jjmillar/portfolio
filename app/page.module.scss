@@ -13,6 +13,10 @@
     color: $textColor;
 }
 
+.personalCard > svg {
+    stroke: $firstColor;
+}
+
 .personalInfo {
     height: 85svh;
     width: 25svw;
@@ -41,8 +45,8 @@
     align-items: center;
 }
 
-.icon {
-    stroke: green;
+.navbar > svg {
+    stroke: $firstColor;
 }
 
 .showingCard {
@@ -77,6 +81,6 @@
     padding-top: 20px;
 }
 
-.navbar > ion-icon:last-child {
+.navbar > svg:last-child {
     padding-bottom: 20px;
 }

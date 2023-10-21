@@ -1,5 +1,8 @@
 import Image from 'next/image'
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/navbar'
+import Github from '@/components/icons/github'
+import Linkedin from '@/components/icons/linkedin'
+import Instagram from '@/components/icons/instagram'
 
 import './globals.scss'
 import styles from './page.module.scss'
@@ -24,33 +27,16 @@ export default function RootLayout ({ children }) {
             />
             <div className={styles.iconsWrapper}>
               <a href='https://github.com/jjmillar' target='blank'>
-                <Image
-                  src='/github.svg'
-                  height={100}
-                  width={100}
-                  alt='personal photo'
-                  className={styles.icon}
-                />
+                <Github />
               </a>
               <a
                 href='https://www.linkedin.com/in/juli%C3%A1n-millar-vollaire/'
                 target='blank'
               >
-                <Image
-                  src='/linkedin.svg'
-                  height={100}
-                  width={100}
-                  alt='personal photo'
-                  className={styles.icon}
-                />
+                <Linkedin />
               </a>
               <a href='https://www.instagram.com/muramasa_bjj/' target='blank'>
-                <Image
-                  src='/instagram.svg'
-                  height={100}
-                  width={100}
-                  alt='personal photo'
-                />
+                <Instagram />
               </a>
             </div>
             <button>asd</button>
