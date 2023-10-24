@@ -2,6 +2,7 @@ import Navbar from '@/components/navbar'
 import PersonalCard from '@/components/personal-card'
 
 import './globals.scss'
+import styles from './page.module.scss'
 
 export const metadata = {
   title: 'JJ Portfolio',
@@ -13,7 +14,8 @@ export default function RootLayout ({ children }) {
     <html lang='en'>
       <body>
         <PersonalCard />
-        {children}
+        <div className={styles.showingCard}>{children}</div>
+
         <Navbar />
       </body>
     </html>

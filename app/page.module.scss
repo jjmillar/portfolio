@@ -81,7 +81,16 @@
     font-size: 2.5svw;
 }
 
-.navbar > svg {
+.navbar > a {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar > a > svg {
     height: auto;
     width: 60%;
     stroke: $textColor;
@@ -91,6 +100,6 @@
     padding-top: 20px;
 }
 
-.navbar > svg:last-child {
+.navbar > a > svg:last-child {
     padding-bottom: 20px;
 }

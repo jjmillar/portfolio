@@ -11,6 +11,10 @@ body {
   align-items: center;
 }
 
-a:visited {
+.iconsWrapper > a:visited {
   color: $firstColor;
+}
+
+.navbar > a:visited {
+  color: $textColor;
 }
