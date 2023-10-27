@@ -1,5 +1,6 @@
 @import 'variables.module.scss';
 
+/* Personal card, icons buttons */
 .personalCard {
     background: $secondColor;
     height: 85svh;
@@ -11,18 +12,6 @@
     justify-content: left;
 
     color: $textColor;
-}
-
-.iconsWrapper > a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.iconsWrapper > a > svg {
-    height: auto;
-    width: 100%;
-    stroke: $firstColor;
 }
 
 .personalInfo {
@@ -44,15 +33,36 @@
     border: 4px solid $firstColor;
 }
 
+.info > * {
+    color: $firstColor;
+}
+
 .iconsWrapper {
-    width: 20svw;
+    width: 25svw;
+    height: 10svh;
     box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
+.iconsWrapper > a {
+    width: 3svw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsWrapper > a > svg {
+    height: auto;
+    width: 100%;
+    stroke: $firstColor;
+}
+
+/* Card that show the different info */
 .showingCard {
     background: $firstColor;
     height: 85svh;
@@ -63,6 +73,7 @@
     right: 7.5svw;
 }
 
+/* Navbar */
 .navbar {
     position: absolute;
     width: 4svw;
@@ -84,22 +95,19 @@
 .navbar > a {
     width: 100%;
     height: auto;
+    padding-top: 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.navbar > a > svg:last-child {
+    padding-bottom: 20px;
+}
+
 .navbar > a > svg {
     height: auto;
     width: 60%;
     stroke: $textColor;
-}
-
-.navbar > * {
-    padding-top: 20px;
-}
-
-.navbar > a > svg:last-child {
-    padding-bottom: 20px;
 }

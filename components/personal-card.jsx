@@ -15,6 +15,10 @@ export default function PersonalCard () {
           alt='personal photo'
           className={styles.profilePic}
         />
+        <div className={styles.info}>
+          <h1>Julián Jesús Millar Vollaire</h1>
+          <h2>Desarrollador MERN</h2>
+        </div>
         <div className={styles.iconsWrapper}>
           <a href='https://github.com/jjmillar' target='blank'>
             <Github />
