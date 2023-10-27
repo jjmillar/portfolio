@@ -16,7 +16,7 @@ export default function PersonalCard () {
           className={styles.profilePic}
         />
         <div className={styles.info}>
-          <h1>Julián Jesús Millar Vollaire</h1>
+          <h1>Julián Jesus Millar Vollaire</h1>
           <h2>Desarrollador MERN</h2>
         </div>
         <div className={styles.iconsWrapper}>
