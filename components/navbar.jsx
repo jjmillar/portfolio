@@ -6,7 +6,7 @@ import Briefcase from './icons/briefcase'
 import Mail from './icons/mail'
 import Link from 'next/link'
 
-export default function Naavbar () {
+export default function Navbar () {
   return (
     <navbar className={styles.navbar}>
       <Link href='/'><Home /></Link>
