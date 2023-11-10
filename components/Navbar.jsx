@@ -1,5 +1,5 @@
 import styles from '@/app/page.module.scss'
-import Home from '@/components/icons/home'
+import Home from './icons/home'
 import User from './icons/user'
 import School from './icons/school'
 import Briefcase from './icons/briefcase'
