@@ -1,5 +1,5 @@
 import PersonalCard from '@/components/personal-card'
-import Navbar from '@/components/navbar'
+import Naavbar from '@/components/nnavbar'
 
 import './globals.scss'
 import styles from './page.module.scss'
@@ -16,7 +16,7 @@ export default function RootLayout ({ children }) {
         <PersonalCard />
         <div className={styles.showingCard}>{children}</div>
 
-        <Navbar />
+        <Naavbar />
       </body>
     </html>
   )
