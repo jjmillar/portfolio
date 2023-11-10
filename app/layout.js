@@ -1,6 +1,5 @@
-import Navbar from '@/components/navbar'
 import PersonalCard from '@/components/personal-card'
-
+import Navbar from '@/components/navbar'
 import './globals.scss'
 import styles from './page.module.scss'
 
